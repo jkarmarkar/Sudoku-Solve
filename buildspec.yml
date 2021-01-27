@@ -3,7 +3,6 @@ version: 0.2
 phases:
   build:
     commands:
-       - ll
        - echo "Solution successful" > /var/log/output.log
 
 artifacts:
