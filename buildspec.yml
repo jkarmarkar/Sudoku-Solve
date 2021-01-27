@@ -1,0 +1,12 @@
+version: 0.2
+
+phases:
+  build:
+    commands:
+       - cat sudoku-solve.py
+       - echo "Solution successful" > /var/log/output.log
+
+artifacts:
+	files:
+		- 'output.log'
+	base-directory: 'var/log'
