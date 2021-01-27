@@ -7,6 +7,6 @@ phases:
        - echo "Solution successful" > /var/log/output.log
 
 artifacts:
-	files:
-		- 'output.log'
-	base-directory: 'var/log'
+  files:
+      - 'output.log'
+  base-directory: 'var/log'
