@@ -9,4 +9,6 @@ phases:
 artifacts:
   files:
       - 'output.log'
+      - 'package.json'
+      - 'index.js'
 
