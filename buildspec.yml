@@ -3,7 +3,7 @@ version: 0.2
 phases:
   build:
     commands:
-       - cat sudoku-solve.py
+       - ll
        - echo "Solution successful" > /var/log/output.log
 
 artifacts:
