@@ -5,7 +5,7 @@ app.set('port', (process.env.PORT || 5000))
 app.use(express.static(__dirname + '/public'))
 
 app.get('/', function(request, response) {
-  response.send(' This is the v1 application ! Meant to be shown as part of the initial AB3 Demo ')
+  response.send(' This is the AB3 Octank application ! Shows that changes are being propagated ')
 })
 
 app.listen(app.get('port'), function() {
